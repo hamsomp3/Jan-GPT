@@ -55,7 +55,7 @@ This instruction will install the libraries of the requirements.txt file.
 
 ## Unix Installation
 
-If this is your first time using the template, you will need to install the necessary packages to set up the project environment. To do so, run the following command:
+You will need to install the necessary packages to set up the project environment. To do so, run the following command:
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
