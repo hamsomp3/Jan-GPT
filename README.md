@@ -56,7 +56,8 @@ If this is your first time using the template, you will need to install the nece
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install python
-``
+```
+
 Make sure you have the right path in the shell, if not, please run the following command:
 
 ```sh
