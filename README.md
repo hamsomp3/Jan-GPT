@@ -51,10 +51,30 @@ This instruction will install the libraries of the requirements.txt file.
 
 ## Unix Installation
 
+If this is your first time using the template, you will need to install the necessary packages to set up the project environment. To do so, run the following command:
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install python
+``
+Make sure you have the right path in the shell, if not, please run the following command:
+
+```sh
+export PATH="/usr/local/bin:$PATH"
+```
+
 Set up the project environment on Unix-like systems, including the creation of a Python virtual environment and installation of necessary packages.
 
 ```sh
 local-setup-mac: install-unix
+```
+
+## Streamlit
+
+To execute/run the streamlit app, please run the following command:
+
+```sh
+make stream
 ```
 
 ## Contributing
