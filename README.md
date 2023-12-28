@@ -1,27 +1,30 @@
-# Data Science Project Template
+# Chatbot JanGPT
 
-Welcome to our Data Science Project Template, a streamlined foundation for kick-starting your data science endeavors. This repository is designed to provide an efficient, reproducible, and easy-to-use framework for data science projects of any scale.
+Welcome to the JanGPT project! JanGPT is a unique chatbot created to simulate conversations with the author, inspired by his social media posts from platforms like Facebook and Twitter. This innovative concept leverages the power of the [GPT-3.5 turbo](https://openai.com/blog/new-models-and-developer-products-announced-at-devday) API, a state-of-the-art transformer-based language model. With a contextual understanding spanning 4,096 tokens and training data up until September 2021, JanGPT promises a rich and engaging chat experience.
 
-Our template leverages a Makefile to automate various tasks associated with setting up and maintaining a data science project environment. The Makefile is a powerful tool that simplifies the process of managing dependencies, virtual environments, and other routine tasks, allowing you to focus on the core aspects of your data analysis.
+One of the standout features of JanGPT is its ability to mimic the "voice" of the author. This is achieved through the advanced Text-To-Speech (TTS) capabilities of the OpenAI API, adding an extra layer of immersion to your interactions with the chatbot.
+
 
 ## Prerequisites
 
-- [Python 3.10](https://www.python.org/downloads/release/python-3100/)
-- [Git](https://git-scm.com/downloads)
+Before diving into JanGPT, ensure you have the following prerequisites installed:
 
+- [Python 3.10](https://www.python.org/downloads/release/python-3100/) The core programming language used.
+- [Git](https://git-scm.com/downloads) Essential for cloning the repository.
 
+# Getting Started
 
 ## Clone the repository
 
-To get started with this template, clone the repository using the following command:
+Begin by cloning the repository to your local machine using this command:
 
 ```sh
-git clone https://github.com/hamsomp3/plantilla_ds.git
+git clone https://github.com/hamsomp3/Jan-GPT.git
 ```
 
 # Environment Setup (Requirements)
 
-After cloning the repository, navigate to the project directory and run the following command to set up your environment:
+Navigate to your project directory. Set up your environment by installing the necessary packages:
 
 ## Quick Start ⚡
 
