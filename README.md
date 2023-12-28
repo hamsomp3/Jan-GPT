@@ -4,6 +4,7 @@ Welcome to the JanGPT project! JanGPT is a unique chatbot created to simulate co
 
 One of the standout features of JanGPT is its ability to mimic the "voice" of the author. This is achieved through the advanced Text-To-Speech (TTS) capabilities of the OpenAI API, adding an extra layer of immersion to your interactions with the chatbot.
 
+![Visualization of the Chat](./img/photo1.png)
 
 ## Prerequisites
 
