@@ -48,7 +48,7 @@ This instruction will install the make package in your computer.
 
 
 ```sh
-local-setup-windows: install-windows
+make local-setup-windows
 ```
 
 This instruction will install the libraries of the requirements.txt file.
@@ -71,7 +71,7 @@ export PATH="/usr/local/bin:$PATH"
 Set up the project environment on Unix-like systems, including the creation of a Python virtual environment and installation of necessary packages.
 
 ```sh
-local-setup-mac: install-unix
+make local-setup-mac
 ```
 
 ## Streamlit
