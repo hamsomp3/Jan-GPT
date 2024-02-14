@@ -34,8 +34,14 @@ activate-unix:
 
 #STREAMLIT_APP := codigo.py
 STREAMLIT_APP := codigo.py
+STREAMLIT_APP1 := chatbot.py
+STREAMLIT_APP2 := chatbot2.py
 
 stream:
 	streamlit run $(STREAMLIT_APP)
 
+stream1:
+	streamlit run $(STREAMLIT_APP1)
 
+stream2:
+	streamlit run $(STREAMLIT_APP2)
