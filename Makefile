@@ -18,6 +18,7 @@ local-setup-mac: install-unix
 # Target for Windows
 SHELL_WIN := cmd.exe
 PATH_WIN := .venv/Scripts:$(PATH)
+ACTIVATE_VENV_WIN := .\\venv\\Scripts\\activate
 
 install-windows:
 	if not exist ".venv" python -m venv --copies .venv
@@ -27,10 +28,16 @@ install-windows:
 local-setup-windows: install-windows
 
 activate-windows:
-	@echo Run 'powershell .\.venv\Scripts\Activate.ps1' to activate the virtual environment
+	@cmd.exe /K .venv\Scripts\activate.bat
 
 activate-unix:
 	@echo Run 'source .venv/bin/activate' to activate the virtual environment
+
+chroma-setup:
+	docker build -t mi-aplicacion .
+
+chroma-run:
+	docker run -p 8000:8000 mi-aplicacion
 
 #STREAMLIT_APP := codigo.py
 STREAMLIT_APP := codigo.py
